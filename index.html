@@ -3,71 +3,183 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Borowicz — Digitale Lösungen</title>
-  <meta name="description" content="Borowicz — professionelle Websites, Branding und digitale Lösungen.">
+  <meta name="description" content="Borowicz – professionelle Unterstützung in Kundenservice, Customer Operations, Back Office und virtueller Assistenz.">
+  <title>Borowicz — Kundenservice & Operations</title>
+  <link rel="icon" href="assets/brand/mark.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="nav">
-    <a class="brand" href="#">
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Borowicz Startseite">
       <img src="assets/brand/mark.svg" alt="BB">
-      <span>Borowicz</span>
+      <span>BOROWICZ</span>
     </a>
-    <a class="nav-link" href="#kontakt">Kontakt</a>
+    <nav>
+      <a href="#leistungen">Leistungen</a>
+      <a href="#ueber-mich">Über mich</a>
+      <a href="#kontakt" class="nav-cta">Kontakt</a>
+    </nav>
   </header>
 
-  <main>
+  <main id="top">
     <section class="hero">
-      <div class="eyebrow">BB · DIGITAL & BRAND</div>
-      <h1>Digitale Lösungen,<br><span>die Eindruck machen.</span></h1>
-      <p>Professionelle Websites, klares Branding und digitale Lösungen — von der Idee bis zum fertigen Auftritt.</p>
-      <div class="actions">
-        <a class="button primary" href="#kontakt">Projekt starten</a>
-        <a class="button secondary" href="#leistungen">Leistungen ansehen</a>
+      <div class="eyebrow"><span></span> KUNDENSERVICE · OPERATIONS · BACK OFFICE</div>
+      <h1>Verlässliche Unterstützung,<br><em>die im Alltag</em> einen Unterschied macht.</h1>
+      <p class="hero-copy">
+        Ich unterstütze Unternehmen bei Kundenanfragen, Customer Operations und administrativen Aufgaben –
+        strukturiert, professionell und lösungsorientiert.
+      </p>
+      <div class="hero-actions">
+        <a href="#kontakt" class="button button-primary">Zusammenarbeit starten <span>↗</span></a>
+        <a href="#leistungen" class="button button-ghost">Leistungen entdecken</a>
+      </div>
+      <div class="hero-meta">
+        <div><strong>DE</strong><span>Deutsch</span></div>
+        <div><strong>PL</strong><span>Polnisch</span></div>
+        <div><strong>EN</strong><span>Englisch</span></div>
+        <div class="meta-note">Remote · flexibel · zuverlässig</div>
       </div>
     </section>
 
-    <section id="leistungen" class="section">
-      <div class="section-head">
-        <div class="eyebrow">LEISTUNGEN</div>
-        <h2>Was ich für dich umsetze.</h2>
+    <section class="intro section">
+      <div class="section-label">01 / WOFÜR ICH STEHE</div>
+      <div class="intro-grid">
+        <h2>Professionelle Kommunikation.<br><span>Struktur im Prozess.</span></h2>
+        <p>
+          Gute Kundenbetreuung bedeutet für mich mehr als schnelle Antworten. Es geht darum,
+          zuzuhören, Situationen richtig einzuschätzen, Probleme sauber zu lösen und dabei
+          auch in anspruchsvollen Momenten professionell zu bleiben.
+        </p>
       </div>
-      <div class="grid">
-        <article class="card"><div class="number">01</div><h3>Websites & Webdesign</h3><p>Moderne, responsive Websites mit einem professionellen Auftritt und klarer Nutzerführung.</p></article>
-        <article class="card"><div class="number">02</div><h3>Brand & Design</h3><p>Logo, visuelle Identität und ein konsistenter Markenauftritt für einen starken ersten Eindruck.</p></article>
-        <article class="card"><div class="number">03</div><h3>Digitale Lösungen</h3><p>Individuelle digitale Umsetzungen, die Prozesse vereinfachen und dein Angebot sichtbar machen.</p></article>
-        <article class="card"><div class="number">04</div><h3>Beratung & Umsetzung</h3><p>Direkte Zusammenarbeit, strukturierte Planung und zuverlässige Umsetzung von Anfang bis Ende.</p></article>
+    </section>
+
+    <section id="leistungen" class="section services">
+      <div class="section-heading">
+        <div class="section-label">02 / LEISTUNGEN</div>
+        <h2>Wo ich unterstützen kann.</h2>
+        <p>Flexible Unterstützung für kundenorientierte Unternehmen und digitale Teams.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card featured">
+          <div class="card-number">01</div>
+          <div class="icon">↗</div>
+          <h3>Kundenservice</h3>
+          <p>Deutschsprachiger Support per E-Mail, Chat und Telefon – freundlich, professionell und lösungsorientiert.</p>
+          <div class="tags"><span>E-Mail</span><span>Chat</span><span>Telefon</span></div>
+        </article>
+        <article class="service-card">
+          <div class="card-number">02</div>
+          <div class="icon">◎</div>
+          <h3>Customer Operations</h3>
+          <p>Unterstützung bei Kundenanfragen, Onboarding, Account-Betreuung und operativen Abläufen.</p>
+          <div class="tags"><span>Onboarding</span><span>Accounts</span><span>Operations</span></div>
+        </article>
+        <article class="service-card">
+          <div class="card-number">03</div>
+          <div class="icon">□</div>
+          <h3>Back Office</h3>
+          <p>Dokumentation, administrative Aufgaben und strukturierte Unterstützung im Tagesgeschäft.</p>
+          <div class="tags"><span>Administration</span><span>Dokumentation</span></div>
+        </article>
+        <article class="service-card">
+          <div class="card-number">04</div>
+          <div class="icon">+</div>
+          <h3>Virtuelle Assistenz</h3>
+          <p>Flexible Unterstützung für Unternehmen und Teams im digitalen Arbeitsumfeld.</p>
+          <div class="tags"><span>Remote</span><span>Organisation</span><span>Support</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="statement">
+      <div class="statement-mark">BB</div>
+      <blockquote>„Ich möchte nicht nur Aufgaben übernehmen,<br><em>sondern echten Mehrwert schaffen.</em>“</blockquote>
+    </section>
+
+    <section class="section strengths">
+      <div class="section-label">03 / MEINE STÄRKEN</div>
+      <div class="strength-list">
+        <article>
+          <span>01</span>
+          <div><h3>Empathie & Kommunikation</h3><p>Ich stelle mich auf unterschiedliche Menschen und Situationen ein und kommuniziere auch bei anspruchsvollen Anliegen ruhig und professionell.</p></div>
+        </article>
+        <article>
+          <span>02</span>
+          <div><h3>Zuverlässigkeit & Diskretion</h3><p>Verantwortungsbewusst, sorgfältig und vertraulich – besonders beim Umgang mit sensiblen Informationen.</p></div>
+        </article>
+        <article>
+          <span>03</span>
+          <div><h3>Struktur & Lösungsorientierung</h3><p>Ich arbeite selbstständig, analytisch und strukturiert und konzentriere mich darauf, Aufgaben zuverlässig und effizient zu lösen.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section focus">
+      <div class="focus-panel">
+        <div class="section-label">04 / BRANCHENFOKUS</div>
+        <h2>Besonders interessant:<br><em>kundenorientierte Unternehmen.</em></h2>
+        <p>Mein besonderer Fokus liegt auf digitalen und kundenorientierten Geschäftsmodellen – unter anderem FinTech, Banking und E-Commerce.</p>
+        <div class="focus-tags"><span>FinTech</span><span>Banking</span><span>E-Commerce</span><span>Digitale Unternehmen</span></div>
+      </div>
+      <div class="language-panel">
+        <div class="section-label">SPRACHEN</div>
+        <div class="language">Deutsch <small>Muttersprache / professionell</small></div>
+        <div class="language">Polnisch <small>professionelle Kommunikation</small></div>
+        <div class="language">Englisch <small>professionelle Kommunikation</small></div>
+      </div>
+    </section>
+
+    <section id="ueber-mich" class="section about">
+      <div class="section-label">05 / ÜBER MICH</div>
+      <div class="about-grid">
+        <div>
+          <h2>Ruhig bleiben.<br>Mitdenken.<br><em>Weiterbringen.</em></h2>
+        </div>
+        <div class="about-copy">
+          <p>
+            Ich bin zuverlässig, strukturiert und arbeite gerne eigenständig. Auch in dynamischen
+            oder anspruchsvollen Situationen bewahre ich Ruhe und einen professionellen Umgang.
+          </p>
+          <p>
+            Die digitale Arbeitswelt sehe ich als Chance, bewährte Stärken mit modernen Arbeitsweisen
+            zu verbinden. Mein Ziel ist eine langfristige, vertrauensvolle Zusammenarbeit, bei der
+            Unterstützung nicht nur Arbeit abnimmt, sondern Prozesse besser macht.
+          </p>
+        </div>
       </div>
     </section>
 
     <section class="section process">
-      <div class="section-head">
-        <div class="eyebrow">ABLAUF</div>
-        <h2>Einfach. Klar. Professionell.</h2>
+      <div class="section-heading">
+        <div class="section-label">06 / ZUSAMMENARBEIT</div>
+        <h2>Einfach, klar und verlässlich.</h2>
       </div>
-      <div class="steps">
-        <div><b>01</b><strong>Verstehen</strong><span>Ziele und Anforderungen klären.</span></div>
-        <div><b>02</b><strong>Konzipieren</strong><span>Struktur, Design und Richtung festlegen.</span></div>
-        <div><b>03</b><strong>Umsetzen</strong><span>Design und Technik sauber realisieren.</span></div>
-        <div><b>04</b><strong>Veröffentlichen</strong><span>Finalisieren und online bringen.</span></div>
+      <div class="process-grid">
+        <div><span>01</span><h3>Verstehen</h3><p>Aufgabe, Ziel und Anforderungen klären.</p></div>
+        <div><span>02</span><h3>Abstimmen</h3><p>Kommunikation und Arbeitsweise gemeinsam festlegen.</p></div>
+        <div><span>03</span><h3>Umsetzen</h3><p>Selbstständig, strukturiert und lösungsorientiert arbeiten.</p></div>
+        <div><span>04</span><h3>Weiterentwickeln</h3><p>Aus Erfahrungen lernen und Zusammenarbeit langfristig verbessern.</p></div>
       </div>
     </section>
 
     <section id="kontakt" class="contact">
-      <div>
-        <div class="eyebrow">KONTAKT</div>
-        <h2>Du hast ein Projekt?<br>Dann lass uns sprechen.</h2>
+      <div class="contact-inner">
+        <div class="section-label">07 / KONTAKT</div>
+        <h2>Lassen Sie uns<br><em>ins Gespräch kommen.</em></h2>
+        <p>Sie suchen zuverlässige Unterstützung für Kundenservice, Operations oder Back Office?</p>
+        <a class="contact-link" href="mailto:kontakt@borowicz.de">kontakt@borowicz.de <span>↗</span></a>
+        <small>Hinweis: E-Mail-Adresse vor Veröffentlichung durch Ihre tatsächliche Geschäftsadresse ersetzen.</small>
       </div>
-      <a class="button primary" href="mailto:kontakt@borowicz.de">kontakt@borowicz.de</a>
     </section>
   </main>
 
   <footer>
-    <span>© Borowicz</span>
-    <nav><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></nav>
+    <div class="footer-brand"><img src="assets/brand/mark.svg" alt="BB"><strong>BOROWICZ</strong></div>
+    <div class="footer-links"><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></div>
+    <div class="copyright">© 2026 Borowicz</div>
   </footer>
 </body>
 </html>

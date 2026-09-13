@@ -1,12 +1,16 @@
 # Borowicz Website
 
-Professionelle One-Page-Website für Borowicz.
+Professionelle One-Page-Website für Borowicz – Kundenservice, Customer Operations, Back Office und virtuelle Assistenz.
 
-## Dateien
+## Struktur
 - `index.html` – Startseite
 - `styles.css` – Design
-- `assets/brand/mark.svg` – BB-Marke
-- `impressum.html` – Platzhalter
-- `datenschutz.html` – Platzhalter
+- `assets/brand/mark.svg` – BB Logo
+- `impressum.html` – Impressum-Vorlage
+- `datenschutz.html` – Datenschutz-Vorlage
 
-Vor der Veröffentlichung bitte Kontakt-, Impressums- und Datenschutzangaben prüfen und ersetzen.
+## Vor Veröffentlichung
+1. Tatsächliche E-Mail-Adresse einsetzen.
+2. Impressum mit echten Unternehmens-/Kontaktdaten vervollständigen.
+3. Datenschutzerklärung an Hosting und tatsächlich eingesetzte Dienste anpassen.
+4. Texte nur um Leistungen/Erfahrungen erweitern, die tatsächlich zutreffen.
